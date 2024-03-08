@@ -25,7 +25,7 @@ By default, the script processes the "src/test" directory recursively, extractin
 
 ## Configuration
 
-- **tag_exclusions.csv:** Customize tag exclusions to enhance the accuracy of keyword extraction. Update this CSV file as needed.
+- **tag_exclusions.csv:** Customize tag exclusions to enhance the accuracy of keyword extraction. Update this CSV file as needed, just ensure to keep the header column 'Exclusions' intact. I have a few listed including measurements and other less relevant terms that might appear frequently in a text. The exclusions.csv is case-independent and will exclude plural forms as well. 
 
 ## Dependencies
 
