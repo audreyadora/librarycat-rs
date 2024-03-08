@@ -13,9 +13,10 @@
 1. Ensure you have Rust installed on your system.
 2. Clone the repository: `git clone https://github.com/audreyadora/librarycat-rs.git`
 3. Navigate to the project directory: `cd librarycat-rs`
-4. Run the script: `cargo run`
+4. Load a copy of your ePub and PDF library under src/test or change the directory in main.rs
+5. Run the script: `cargo run`
 
-By default, the script processes the "src/test" directory recursively, extracting keywords from EPUB and PDF files. The results are then saved in a `documents.json` file located in the "src" directory.
+By default, the script processes the "src/test" directory recursively, extracting keywords from EPUB and PDF files. The results are then saved in a `documents.json` file located in the "src" directory. Implement the keywords in your asset management program or database of choice. 
 
 ## Components
 
